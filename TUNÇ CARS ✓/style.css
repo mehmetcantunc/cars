@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,300&family=Titillium+Web:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+padding-left: 8%;
+padding-right: 8%;
+background-image:url(./images/background.jpg);
+height: 98vh;
+background-position: center;
+background-size: cover;
+ 
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a img{
+    height: 105px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    transition: ease 2s;
+}
+.navbar ul li a:hover{
+ cursor: pointer;
+ color: aqua;
+}
+
+ .navbar ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px; /*uzaklaştırmaya yarar */
+    
+}
+
+.row{
+    display: flex;
+    height: 90%;
+    color: #Ffff;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%; /* iki şekildede aynı sonuca varırız yani bloku 2ye ayırır */
+    /* flex: 1; */
+}
+
+h1{
+    color: #ffff;
+    font-size: 92px;
+}
+
+
+p{
+    color: aqua;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.desc{
+    font-size: 17px;
+}
+
+.btn{
+    padding: 5px;
+    margin-top: 17px;
+    background: black;
+    color: aqua;
+    border-radius: 20px;
+    border: 1px solid #Ffff;
+    line-height: 15px;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+
+.btn:hover{
+    color: red;
+    border-radius: 100%;
+    transition: ease 1s;
+}
+
+.cards{
+    margin: auto;
+    max-width: 500px;
+  
+}
+.card{
+    height: 230px;
+    width: 130px;
+    display: inline-block;
+    background-image:url(./images/audi.jpg);
+    background-position:center ;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 10px 25px;
+    cursor: pointer;
+    translate: ease 1s;
+    margin: 10px 20px;
+}
+.card:hover{
+    /* transform:translateY(10px) ; */
+    border-color: red;
+    cursor: pointer;
+    border-color: #fff;
+}
+.card .card-head{
+    color: #Ffff;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.card .card-bottom{
+    position: absolute;
+    bottom: 220px;
+    padding-left: 6px;
+    
+}
+
+.card1{
+    height: 230px;
+    width: 130px;
+    display: inline-block;
+    background-image:url(./images/mercedes.jpg);
+    background-position:center ;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 10px 25px;
+    cursor: pointer;
+    translate: ease 1s;
+}
+.card1:hover{
+    /* transform:translateY(10px) ; */
+    border-color: red;
+    cursor: pointer;
+    border-color: #fff;
+}
+.card1 .card1-head{
+    color: #Ffff;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.card1 .card1-bottom{
+    position: absolute;
+    bottom: 220px;
+    padding-left: 6px;
+}
+
+
+.card2{
+    height: 230px;
+    width: 130px;
+    display: inline-block;
+    background-image:url(./images/porshe.jpg);
+    background-position:center ;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 10px 25px;
+    cursor: pointer;
+    translate: ease 1s;
+    margin: 10px 20px;
+}
+.card2:hover{
+    /* transform:translateY(10px) ; */
+    border-color: red;
+    cursor: pointer;
+    border-color: #fff;
+}
+.card2 .card2-head{
+    color: #Ffff;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.card2 .card2-bottom{
+    position: absolute;
+    bottom: 490px;
+    padding-left: 6px;
+}
+
+
+
+.card3{
+    height: 230px;
+    width: 130px;
+    display: inline-block;
+    background-image:url(./images/camaro.jpg);
+    background-position:center ;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 10px 25px;
+    cursor: pointer;
+    translate: ease 1s;
+}
+.card3:hover{
+     /* transform:translateY(-10px) ;  */
+    border-color: red;
+    cursor: pointer;
+    border-color: #fff;
+}
+.card3 .card3-head{
+    color: #Ffff;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.card3 .card3-bottom{
+    position: absolute;
+    bottom: 490px;
+  padding-left: 6px;
+}
+
+h5{
+    color: black;
+}
